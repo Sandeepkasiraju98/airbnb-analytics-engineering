@@ -1,7 +1,7 @@
-name: 'aws_dbt_snowflake_project'
+name: 'airbnb_analytics'
 version: '1.0.0'
 
-profile: 'aws_dbt_snowflake_project'
+profile: 'airbnb_analytics'
 
 model-paths: ["models"]
 analysis-paths: ["analyses"]
@@ -16,7 +16,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 
 models:
-  aws_dbt_snowflake_project:
+  airbnb_analytics:
     bronze:
       +materialized: table
       +schema: bronze
