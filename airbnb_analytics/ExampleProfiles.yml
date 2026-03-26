@@ -1,4 +1,4 @@
-aws_dbt_snowflake_project:
+airbnb_analytics:
   outputs:
     dev:
       account: **************
