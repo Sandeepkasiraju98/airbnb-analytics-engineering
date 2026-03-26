@@ -1,4 +1,3 @@
--- DDL For My Tables
 CREATE OR REPLACE TABLE HOSTS (
     host_id NUMBER,
     host_name STRING,
