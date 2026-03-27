@@ -1,11 +1,11 @@
 # 🏠 Airbnb Analytics Engineering Pipeline
 
-> End-to-end data pipeline built on Snowflake, dbt, and AWS — transforming raw Airbnb data into analytics-ready insights through a medallion architecture.
+> End-to-end data pipeline built on Snowflake, dbt, and AWS, transforming raw Airbnb data into analytics-ready insights through a medallion architecture.
 
 ---
 
 ## What This Does
-Raw CSVs go in. Business intelligence comes out. In between, a fully automated pipeline cleans, validates, and models Airbnb bookings, listings, and host data across three layers — Bronze, Silver, and Gold — with historical tracking via SCD Type 2 snapshots.
+Raw CSVs go in. Business intelligence comes out. In between, a fully automated pipeline cleans, validates, and models Airbnb bookings, listings, and host data across three layers — Bronze, Silver, and Gold, with historical tracking via SCD Type 2 snapshots.
 
 ---
 
